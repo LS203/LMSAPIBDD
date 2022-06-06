@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--<suite name="TestSuite1" verbose="10" parallel ="true" thread-count="5"> for first testng parllel=true
+ <! <test name="test1"> for the first testng xml code
+    <classes>
+    <class name="module1.page1">
+<methods>
+    <include name="testcase1" />
+      </methods>
+</class>
+ <class name="module1.page2"></class>
+    </classes>
+  </test>-->
+<suite name="TestSuite1" verbose="10" parallel ="false" thread-count="5">
+<test name="Test1">
+<classes>
+<class name="runner.TestRunner"/>
+</classes>
+</test>
+</suite>
